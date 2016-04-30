@@ -1,0 +1,87 @@
+header{
+  font-family:$gsr-font-stack;
+  font-size: 0.80em;
+  line-height: 1.30em;
+  font-weight: $gsr-font-normal;
+}
+.gsr-logo {
+    height: 100px;
+    max-width: 500px;
+}
+.gsr-float{
+  position: relative;
+  z-index:2;
+}
+
+.gsr-brand{
+  font-family:$gsr-font-stack;
+  background-color:$gsr-white;
+  height:150px;
+  display: flex;
+  align-items: center;
+
+  h1{
+    font-family:$gsr-font-stack;
+    color:$gsr-red;
+    font-size:2.5em;
+    line-height:2.0em;
+    text-transform: uppercase;
+    font-weight: $gsr-font-bold;
+
+    a{
+      text-decoration: none;
+    }
+  }
+
+  h2{
+    color:$gsr-orange;
+    font-size:1.5em;
+    line-height:1.0em;
+  }
+}
+
+
+.nav-brand{
+  padding:0px 0px;
+
+}
+.navbar-brand>img {
+   max-height: 100%;
+   height: 100%;
+   width: auto;
+   margin: 0 auto;
+
+
+   /* probably not needed anymore, but doesn't hurt */
+   -o-object-fit: contain;
+   object-fit: contain;
+
+}
+.navbar-nav{
+  max-width: 940px;
+  min-height: 50px;
+
+  padding:0px 15px 0px 15px;
+  li{
+    font-family:$gsr-font-stack;
+    font-weight: $gsr-font-bold;
+    font-size:1.8em;
+    line-height:1.0em;
+    color:$gsr-white;
+
+
+    a{
+      //max-width: 150px;
+      text-transform: uppercase;
+      color:$gsr-white;
+    }
+  }
+}
+.current-page-parent{
+  background-color:$gsr-orange;
+}
+.widget_nav_menu{
+  .current-page-parent{
+  background-color:transparent;
+}
+}

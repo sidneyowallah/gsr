@@ -1,0 +1,282 @@
+.gsr-callToAction{
+  background-color:$gsr-blue;
+  margin-top:-25px;
+  padding-top:50px;
+  padding-bottom:25px;
+  z-index: 100;
+
+
+
+}
+.gsr-callToAction-left{
+
+}
+.gsr-callToAction-right{
+  margin-top:25px;
+  margin-bottom:25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.gsr-callToAction-image{
+  width:100%;
+
+}
+.gsr-callToAction-copy{
+  padding-bottom:25px;
+
+  p{
+    font-family:$gsr-font-stack;
+    font-size: 1.40em;
+    line-height: 1.8em;
+    font-weight: $gsr-font-normal;
+    color:black;
+
+  }
+}
+.gsr-callToAction-featured{
+  h2{
+    font-family:$gsr-font-stack;
+    font-size: 1.5em;
+    line-height: 1.3em;
+    font-weight: $gsr-font-bold;
+    color:black;
+    text-align: center;
+    text-transform: uppercase;
+
+  }
+}
+.gsr-callToAction-featuredPodcast{
+  height:265px;
+  overflow: hidden;
+  h2{
+    font-family:$gsr-font-stack;
+    font-size: 1.5em;
+    line-height: 1.3em;
+    font-weight: $gsr-font-bold;
+    color:black;
+
+  }
+}
+.gsr-callToAction-border{
+  height:30px;
+  background-color:$gsr-red;
+  margin-bottom:20px;
+}
+
+.gsr-latestPost{
+  height:450px;
+  background-color:$gsr-white;
+
+
+  p{
+    font-family:$gsr-font-stack;
+    font-size: 1.40em;
+    line-height: 1.40em;
+    font-weight: $gsr-font-normal;
+
+  }
+}
+.gsr-latestPost-title{
+
+  h1{
+    font-family:$gsr-font-stack;
+    font-size: 2.0em;
+    line-height: 1.0em;
+    font-weight: $gsr-font-bold;
+    color:black;
+
+  }
+  p{
+    font-family:$gsr-font-stack;
+    font-size: 1.40em;
+    line-height: 1.40em;
+    font-weight: $gsr-font-normal;
+
+    span{
+
+      font-weight: $gsr-font-bold;
+
+    }
+
+    a{
+      color:$gsr-blue;
+
+
+    }
+
+  }
+
+}
+.gsr-latestPost-copy{
+  margin-top:20px;
+  p{
+    font-family:$gsr-font-stack;
+    font-size: 1.40em;
+    line-height: 1.40em;
+    font-weight: $gsr-font-normal;
+  }
+}
+.gsr-latestPost-social{
+  height:50px;
+
+  //background-color:$gsr-turqoise;
+  font-size: 2.2em;
+  color:white;
+
+  .fa{
+    width:50px;
+    background-color:$gsr-red;
+    text-align:center;
+    padding:5px;
+    margin:5px 0px 5px 0px;
+
+}
+
+
+}
+.gsr-latestPost-profilePic{
+  min-height:150px;
+  margin-top:20px;
+  background-color:$gsr-red;
+}
+.gsr-latestPost-player{
+  height:40px;
+  background-color:black;
+  display: flex;
+  align-items: center;
+
+
+  .glyphicon-play{
+    color:white;
+    font-size:1.2em;
+
+  }
+}
+
+.gsr-latestPost-player-title{
+  h1{
+    font-family:$gsr-font-stack;
+    font-size: 1.40em;
+    line-height: 1.40em;
+    font-weight: $gsr-font-bold;
+  }
+}
+.gsr-latestPost-buttons{
+  margin-top:20px;
+  padding-top:10px;
+ p{
+    font-family:$gsr-font-stack;
+    font-size: 1.50em;
+    line-height: 1.50em;
+    font-weight: $gsr-font-bold;
+    color:white;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+}
+
+.downloadBtn{
+    background-color:$gsr-turqoise;
+}
+.synopsisBtn{
+  background-color:$gsr-orange;
+}
+.websiteBtn{
+  background-color:$gsr-red;
+}
+
+.gsr-chat-box{
+  padding-left:50px;
+
+}
+.gsr-latestPost-message{
+  margin-top:20px;
+  h1{
+    font-family:$gsr-font-stack;
+    font-size: 1.40em;
+    line-height: 1.40em;
+    font-weight: $gsr-font-bold;
+    text-transform: uppercase;
+  }
+
+}
+.gsr-latestPost-sponsor{
+  margin-top:20px;
+  h1{
+    font-family:$gsr-font-stack;
+    font-size: 1.40em;
+    line-height: 1.40em;
+    font-weight: $gsr-font-bold;
+    text-transform: uppercase;
+    margin:0px;
+  }
+
+  span{
+    font-family:$gsr-font-stack;
+    font-size: 3.50em;
+    line-height: 1.0em;
+    font-weight: $gsr-font-bold;
+    color:$gsr-red;
+    text-transform: uppercase;
+
+  }
+
+}
+.messageField{
+  height: 195px;
+}
+.form-control{
+  margin-bottom:10px;
+}
+
+.gsr-page{
+  margin-top: 50px;
+}
+.gsr-page-title{
+  margin-top: 20px;
+  height:295px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h1{
+    font-family:$gsr-font-stack;
+    font-size: 3.5em;
+    line-height: 3.0em;
+    font-weight: $gsr-font-bold;
+    margin:0px;
+    color:white;
+  }
+
+}
+.gsr-page-copy{
+  padding-left: 50px;
+
+  p{
+    font-family:$gsr-font-stack;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    font-weight: $gsr-font-normal;
+    color:black;
+    text-align: left;
+  }
+}
+.gsr-social{
+  font-size: 2.2em;
+  color:$gsr-red;
+  float:right;
+  max-width: 400px;
+  .fa{
+    width:50px;
+    background-color:white;
+    text-align:center;
+    padding:5px;
+    margin:10px 5px 10px 5px;
+    float:right;
+}
+
+
+
+}
